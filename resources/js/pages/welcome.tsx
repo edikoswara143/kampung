@@ -1,3 +1,4 @@
+import Banner from '@/components/banner';
 import AppContainerLayout from '@/layouts/app/app-container';
 import Header from '@/layouts/app/header';
 import { Head } from '@inertiajs/react';
@@ -11,7 +12,9 @@ export default function Welcome() {
       </Head>
       <AppContainerLayout>
         <Header></Header>
-        <div className="px-4 py-20">home</div>
+        <div className="px-4 py-20">
+          <Banner></Banner>
+        </div>
       </AppContainerLayout>
     </>
   );
