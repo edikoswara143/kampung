@@ -26,6 +26,13 @@ export interface NavItem {
   isActive?: boolean;
 }
 
+export interface BannerPost {
+  id: string;
+  title: string;
+  body: string;
+  category: string;
+}
+
 export interface SharedData {
   name: string;
   quote: { message: string; author: string };
